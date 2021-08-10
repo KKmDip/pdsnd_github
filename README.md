@@ -3,14 +3,14 @@
 ### Date created
 08/10/2021
 
-### Project 3
-Replace the Project Title
+### Project 3 for GITHUB VERSION CONTROL
+Adding some more details for a new commit.
 
 ### Description
 Learning GIT
 
 ### Files used
-Include the files used
+none.
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
