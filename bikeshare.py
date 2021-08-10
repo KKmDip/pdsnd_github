@@ -2,7 +2,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+#adding a comment for the version control project
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -271,6 +271,16 @@ def user_stats(df):
 
 
 
+<<<<<<< HEAD
+||||||| 9acb93e
+    else:
+        print("Sorry, Gender info is not provided in this dataset\n")
+ 
+=======
+    else:
+        print("Sorry, Gender info is not provided in this dataset\n")
+
+>>>>>>> documentation
     # Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
         earliest = int(df['Birth Year'].min())
@@ -317,3 +327,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
+||||||| 9acb93e
+
+
+
+
+=======
+#This is an additional comment for the version control work
+>>>>>>> documentation
