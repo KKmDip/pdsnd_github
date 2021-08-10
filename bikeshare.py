@@ -269,16 +269,7 @@ def user_stats(df):
     else:
         print("Sorry, User Type info is not provided in this dataset.\n")
 
-    # Display counts of gender
-    if 'Gender' in df.columns:
-        gender = df['Gender'].dropna().unique()
 
-        print("\n\nGender info:")
-        for i in gender:
-            print('\t',i, df['Gender'].value_counts()[i])
-
-    else:
-        print("Sorry, Gender info is not provided in this dataset\n")
 
     # Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
